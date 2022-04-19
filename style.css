@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 23px;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #f0f0f0f0;
+}
+
+.clanek-struktura {
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+  padding: 20px;
+  margin: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+  margin: 50px;
+  padding: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.content-struktura {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.container-vyber {
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  list-style: none;
+  font-size: 20px;
+}
+
+.container-vyber a {
+  color: black;
+  text-decoration: none;
+}
+
+.container-cil {
+  text-align: center;
+}
+
+.container-vyber li {
+  display: inline-block;
+}
+
+.container-menu {
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  background-image: url('arduino.webp');
+  background-position: right top;
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.logo2 {
+  display: inline-block;
+  background-image: url('cil.png');
+  background-position: right top;
+  background-size: cover;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.footer {
+font-family: monospace;
+font-size: 14px
+}
+
+nav a {
+  margin: 10px;
+  font-size: 30px;
+  font-family: monospace;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+aside {
+  max-width: 500px;
+  min-width: 250px;
+  border: solid 1px;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+  font-size: 15px;
+}

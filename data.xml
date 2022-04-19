@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<automobily title="Seznam aut">
+  <trida trida="automobily">
+    <automobil cislo="1">
+      <znacka>Volkswagen</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="889900 Kc">Golf</typ>
+      <motorizace vykon="110kW">2.0 TSI</motorizace>
+      <palivo spotreba="7,2l">Benzín</palivo>
+      <zdvihovy-objem>1984</zdvihovy-objem>
+      <pohon>2-1</pohon>
+      <hmotnost>1800</hmotnost>
+      <maximalni-rychlost>230</maximalni-rychlost>
+      <puvod>Česká republika</puvod>
+      <barva>Šedá</barva>
+      <prevodovka>Manuální</prevodovka>
+      <kod-motoru>CLKA</kod-motoru>
+      <mista-k-sezeni>5</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>4125</delka>
+      <sirka>1850</sirka>
+      <vyska>1750</vyska>
+      <stari>2</stari>
+      <majitel prvni="Ano">Jakub Novák</majitel>
+    </automobil>
+    <automobil cislo="2">
+      <znacka>BMW</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="2100900 Kc">5 series</typ>
+      <motorizace vykon="240kW">540i</motorizace>
+      <palivo spotreba="10,6l">Benzín</palivo>
+      <zdvihovy-objem>2997</zdvihovy-objem>
+      <pohon>2-2</pohon>
+      <hmotnost>1984</hmotnost>
+      <maximalni-rychlost>250</maximalni-rychlost>
+      <puvod>Česká republika</puvod>
+      <barva>Bílá</barva>
+      <prevodovka>Automatická</prevodovka>
+      <kod-motoru>BWKA</kod-motoru>
+      <mista-k-sezeni>4</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>4520</delka>
+      <sirka>1833</sirka>
+      <vyska>1620</vyska>
+      <stari>1</stari>
+      <majitel prvni="Ano">Lukáš Tichý</majitel>
+    </automobil>
+    <automobil cislo="3">
+      <znacka>Ford</znacka>
+      <druh-vozidla>Nákladní</druh-vozidla>
+      <typ cena="899900 Kc">Transit</typ>
+      <motorizace vykon="136kW">2.0 TDI</motorizace>
+      <palivo spotreba="10,3l">Nafta</palivo>
+      <zdvihovy-objem>1978</zdvihovy-objem>
+      <pohon>2-1</pohon>
+      <hmotnost>2214</hmotnost>
+      <maximalni-rychlost>210</maximalni-rychlost>
+      <puvod>Německo</puvod>
+      <barva>Modrá</barva>
+      <prevodovka>Manuální</prevodovka>
+      <kod-motoru>OPKKF</kod-motoru>
+      <mista-k-sezeni>3</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>6523</delka>
+      <sirka>1984</sirka>
+      <vyska>2241</vyska>
+      <stari>5</stari>
+      <majitel prvni="Ne">Tomáš Krátký</majitel>
+    </automobil>
+    <automobil cislo="4">
+      <znacka>Ford</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="1159000 Kc">Mustang</typ>
+      <motorizace vykon="313kW">5.0 GT</motorizace>
+      <palivo spotreba="19,6l">Benzín</palivo>
+      <zdvihovy-objem>4989</zdvihovy-objem>
+      <pohon>2-2</pohon>
+      <hmotnost>2165</hmotnost>
+      <maximalni-rychlost>300</maximalni-rychlost>
+      <puvod>USA</puvod>
+      <barva>Červená</barva>
+      <prevodovka>Manuální</prevodovka>
+      <kod-motoru>FGRA</kod-motoru>
+      <mista-k-sezeni>4</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>3989</delka>
+      <sirka>1866</sirka>
+      <vyska>1685</vyska>
+      <stari>3</stari>
+      <majitel prvni="Ano">Jana Stará</majitel>
+    </automobil>
+    <automobil cislo="5">
+      <znacka>Škoda</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="399900 Kc">Fabia</typ>
+      <motorizace vykon="81kW">1.4 TSI</motorizace>
+      <palivo spotreba="5,6l">Benzín</palivo>
+      <zdvihovy-objem>1389</zdvihovy-objem>
+      <pohon>2-1</pohon>
+      <hmotnost>1580</hmotnost>
+      <maximalni-rychlost>210</maximalni-rychlost>
+      <puvod>Česká republika</puvod>
+      <barva>Zelená</barva>
+      <prevodovka>Manuální</prevodovka>
+      <kod-motoru>SKDS</kod-motoru>
+      <mista-k-sezeni>5</mista-k-sezeni>
+      <STK>Ne</STK>
+      <delka>3654</delka>
+      <sirka>1798</sirka>
+      <vyska>1655</vyska>
+      <stari>9</stari>
+      <majitel prvni="Ne">Karel Vomáčka</majitel>
+    </automobil>
+    <automobil cislo="6">
+      <znacka>Porsche</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="3120000 Kc">Carrera</typ>
+      <motorizace vykon="478kW">3.0</motorizace>
+      <palivo spotreba="14.6l">Benzín</palivo>
+      <zdvihovy-objem>2997</zdvihovy-objem>
+      <pohon>2-2</pohon>
+      <hmotnost>1788</hmotnost>
+      <maximalni-rychlost>330</maximalni-rychlost>
+      <puvod>Rakousko</puvod>
+      <barva>Modrá</barva>
+      <prevodovka>Automatická</prevodovka>
+      <kod-motoru>POLR</kod-motoru>
+      <mista-k-sezeni>2</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>4535</delka>
+      <sirka>1900</sirka>
+      <vyska>1303</vyska>
+      <stari>3</stari>
+      <majitel prvni="Ano">Tomáš Kulhavý</majitel>
+    </automobil>
+    <automobil cislo="7">
+      <znacka>Subaru</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="775900 Kc">Impreza</typ>
+      <motorizace vykon="110kW">1.6 MHEV</motorizace>
+      <palivo spotreba="7,2l">Benzín</palivo>
+      <zdvihovy-objem>1589</zdvihovy-objem>
+      <pohon>2-2</pohon>
+      <hmotnost>1998</hmotnost>
+      <maximalni-rychlost>197</maximalni-rychlost>
+      <puvod>Česká republika</puvod>
+      <barva>Černá</barva>
+      <prevodovka>Automatická</prevodovka>
+      <kod-motoru>SSAR</kod-motoru>
+      <mista-k-sezeni>5</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>4475</delka>
+      <sirka>1775</sirka>
+      <vyska>1515</vyska>
+      <stari>1</stari>
+      <majitel prvni="Ano">Kateřina Slaná</majitel>
+    </automobil>
+    <automobil cislo="8">
+      <znacka>Nissan</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="985900 Kc">Navara</typ>
+      <motorizace vykon="138kW">2.3 TDI</motorizace>
+      <palivo spotreba="11,3l">Nafta</palivo>
+      <zdvihovy-objem>2289</zdvihovy-objem>
+      <pohon>4WD</pohon>
+      <hmotnost>2355</hmotnost>
+      <maximalni-rychlost>210</maximalni-rychlost>
+      <puvod>Česká republika</puvod>
+      <barva>Červená</barva>
+      <prevodovka>Automatická</prevodovka>
+      <kod-motoru>NSKL</kod-motoru>
+      <mista-k-sezeni>5</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>5255</delka>
+      <sirka>2085</sirka>
+      <vyska>1822</vyska>
+      <stari>3</stari>
+      <majitel prvni="Ne">Radek Holý</majitel>
+    </automobil>
+    <automobil cislo="9">
+      <znacka>Mazda</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="785900 Kc">MX-5</typ>
+      <motorizace vykon="97kW">1.5</motorizace>
+      <palivo spotreba="8,4l">Benzín</palivo>
+      <zdvihovy-objem>1496</zdvihovy-objem>
+      <pohon>2-1</pohon>
+      <hmotnost>1198</hmotnost>
+      <maximalni-rychlost>240</maximalni-rychlost>
+      <puvod>Japonsko</puvod>
+      <barva>Červená</barva>
+      <prevodovka>Manuální</prevodovka>
+      <kod-motoru>MDJL</kod-motoru>
+      <mista-k-sezeni>2</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>3915</delka>
+      <sirka>1735</sirka>
+      <vyska>1225</vyska>
+      <stari>4</stari>
+      <majitel prvni="Ne">Libor Veselý</majitel>
+    </automobil>
+    <automobil cislo="10">
+      <znacka>Hyundai</znacka>
+      <druh-vozidla>Osobní</druh-vozidla>
+      <typ cena="1260900 Kc">i30 N</typ>
+      <motorizace vykon="206kW">2.0 T-GDI</motorizace>
+      <palivo spotreba="12.6l">Benzín</palivo>
+      <zdvihovy-objem>1987</zdvihovy-objem>
+      <pohon>2-2</pohon>
+      <hmotnost>1800</hmotnost>
+      <maximalni-rychlost>260</maximalni-rychlost>
+      <puvod>Česká republika</puvod>
+      <barva>Modrá</barva>
+      <prevodovka>Manuální</prevodovka>
+      <kod-motoru>HBRA</kod-motoru>
+      <mista-k-sezeni>5</mista-k-sezeni>
+      <STK>Ano</STK>
+      <delka>4335</delka>
+      <sirka>1795</sirka>
+      <vyska>1451</vyska>
+      <stari>2</stari>
+      <majitel prvni="Ano">Matěj Kulhavý</majitel>
+    </automobil>
+  </trida>
+</automobily>

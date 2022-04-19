@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="automobily">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="trida"/>
+      </xs:sequence>
+      <xs:attribute name="title" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trida">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="automobil"/>
+      </xs:sequence>
+      <xs:attribute name="trida" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!--Zde je element využívající komplexní datový typ-->
+  <xs:element name="automobil" type="vozidlo"/>
+
+  <!--Zde je definice vlastního komplexního typu-->
+  <xs:complexType name="vozidlo">
+    <xs:group ref="vozidloPrvky"/>
+    <xs:attribute name="cislo" use="required" type="xs:integer"/>
+  </xs:complexType>
+
+  <!--Zde je definice vlastní skupiny atributů-->
+  <xs:group name="vozidloPrvky">
+    <xs:sequence>
+      <xs:element ref="znacka"/>
+      <xs:element ref="druh-vozidla"/>
+      <xs:element ref="typ"/>
+      <xs:element ref="motorizace"/>
+      <xs:element ref="palivo"/>
+      <xs:element ref="zdvihovy-objem"/>
+      <xs:element ref="pohon"/>
+      <xs:element ref="hmotnost"/>
+      <xs:element ref="maximalni-rychlost"/>
+      <xs:element ref="puvod"/>
+      <xs:element ref="barva"/>
+      <xs:element ref="prevodovka"/>
+      <xs:element ref="kod-motoru"/>
+      <xs:element ref="mista-k-sezeni"/>
+      <xs:element ref="STK"/>
+      <xs:element ref="delka"/>
+      <xs:element ref="sirka"/>
+      <xs:element ref="vyska"/>
+      <xs:element ref="stari"/>
+      <xs:element ref="majitel"/>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:element name="znacka" type="xs:string"/>
+  <xs:element name="druh-vozidla" type="xs:string"/>
+  <xs:element name="typ">
+    <xs:complexType mixed="true">
+      <xs:attribute name="cena" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="motorizace">
+    <xs:complexType mixed="true">
+      <xs:attribute name="vykon" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="palivo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="spotreba" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="zdvihovy-objem" type="xs:integer"/>
+  <xs:element name="pohon" type="xs:string"/>
+  <xs:element name="hmotnost" type="xs:integer"/>
+  <xs:element name="maximalni-rychlost" type="xs:integer"/>
+  <xs:element name="puvod" type="xs:string"/>
+  <xs:element name="barva" type="xs:string"/>
+  <xs:element name="prevodovka" type="xs:string"/>
+  <xs:element name="kod-motoru" type="xs:string"/>
+  <xs:element name="mista-k-sezeni" type="xs:integer"/>
+  <xs:element name="STK" type="xs:string"/>
+  <xs:element name="delka" type="xs:integer"/>
+  <xs:element name="sirka" type="xs:integer"/>
+  <xs:element name="vyska" type="xs:integer"/>
+  <xs:element name="stari" type="xs:integer"/>
+  <xs:element name="majitel">
+    <xs:complexType mixed="true">
+      <xs:attribute name="prvni" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
